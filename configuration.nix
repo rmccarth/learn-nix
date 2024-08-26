@@ -83,6 +83,15 @@
       pkgs.zsh-syntax-highlighting
     ];
   };
+  programs.git.config = {
+    enable = true;
+    userName = "rmccarth";
+    userEmail = "rmccarth@alumni.cmu.edu";
+    extraConfig = ''
+      [init]
+        defaultBranch = main
+    '';
+  };
 
   nix = {
   # automatically trigger garbage collection
