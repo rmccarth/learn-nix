@@ -87,7 +87,7 @@
     enable = true;
     config = [{ 
       user = {
-        name = "builderbob";
+        name = "rmccarth";
         email = "rmccarth@alumni.cmu.edu";
       };
       init.defaultBranch = "main";
