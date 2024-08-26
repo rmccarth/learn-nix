@@ -145,6 +145,8 @@
     k3d
     skopeo
     nmap
+    python312
+    poetry
   ];
 
   environment.variables = {
@@ -159,11 +161,12 @@
     e = "sudo vim /etc/nixos/configuration.nix";
     r = "sudo nixos-rebuild switch";
     watch = "watch ";
+    gdb = "pwndbg";
   };
 
   system.stateVersion = "24.05"; # Did you read the comment? nope
 
   # sudo chown builderbob:users -R /etc/nixos
-  # ln -s /home/nixos/dev/play/learn-nix/configuration.nix /etc/nixos/configuration.nix
+  # ln -s /home/$USER/dev/play/learn-nix/configuration.nix /etc/nixos/configuration.nix
 }
 
