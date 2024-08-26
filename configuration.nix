@@ -83,14 +83,15 @@
       pkgs.zsh-syntax-highlighting
     ];
   };
-  programs.git.config = {
+  programs.git = {
     enable = true;
-    userName = "rmccarth";
-    userEmail = "rmccarth@alumni.cmu.edu";
-    extraConfig = ''
-      [init]
-        defaultBranch = main
-    '';
+    config = [{ 
+      user = {
+        name = "rmccarth";
+        email = "rmccarth@alumni.cmu.edu";
+      };
+      init.defaultBranch = "main";
+    }];
   };
 
   nix = {
