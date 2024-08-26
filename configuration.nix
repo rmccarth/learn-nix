@@ -91,6 +91,7 @@
         email = "rmccarth@alumni.cmu.edu";
       };
       init.defaultBranch = "main";
+      credential.helper = "store";
     }];
   };
 
@@ -122,7 +123,6 @@
     ida-free
     gdb
     pwndbg
-    pwntools
     ghidra
     libreoffice
     git
