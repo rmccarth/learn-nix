@@ -113,6 +113,7 @@
   environment.systemPackages = with pkgs; [
     vim
     appgate-sdp
+    google-chrome
     chromium
     zsh
     zsh-autosuggestions
