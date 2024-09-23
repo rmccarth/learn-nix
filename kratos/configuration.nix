@@ -61,7 +61,7 @@
   };
 
   # Enable CUPS to print documents.
-  services.printing.enable = true;
+  services.printing.enable = false;
 
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
@@ -111,6 +111,8 @@
   environment.systemPackages = with pkgs; [
     vim
     curl
+    python3
+    git
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

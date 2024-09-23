@@ -148,6 +148,7 @@
     nmap
     python312
     poetry
+    ansible
   ];
 
   environment.variables = {
