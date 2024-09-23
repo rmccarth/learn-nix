@@ -1,0 +1,19 @@
+# assumes NixOS operating system installed
+# configures kratos with an /etc/nixos/configuration.nix out of git
+- name: configure server
+  hosts: kratos 
+  tasks:
+    - name: checkout configuration
+      ansible.builtin.git:
+        repo: 'https://github.com/rmccarth/learn-nix.git'
+        dest: /home/builderbob/learn-nix 
+        version: main 
+
+    - name: update configuration.nix
+      become: true
+      ansible.builtin.shell: cp /home/builderbob/learn-nix/kratos/configuration.nix /etc/nixos/configuration.nix
+
+    - name: rebuild nix
+      become: true
+      ansible.builtin.shell: nixos-rebuild switch
+
