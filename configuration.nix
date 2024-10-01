@@ -111,6 +111,8 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
+    man-pages
+    man-pages-posix
     vim
     appgate-sdp
     google-chrome
