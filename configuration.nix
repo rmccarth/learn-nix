@@ -151,6 +151,7 @@
     python312
     poetry
     ansible
+    checksec
   ];
 
   environment.variables = {
@@ -164,6 +165,7 @@
     k = "kubectl";
     e = "sudo vim /etc/nixos/configuration.nix";
     r = "sudo nixos-rebuild switch";
+    ida = "ida64";
     watch = "watch ";
     gdb = "pwndbg";
   };
