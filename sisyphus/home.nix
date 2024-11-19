@@ -20,7 +20,7 @@
     git
     gnumake
     go
-    google-chrome 
+    google-chrome # google-chrome-stable
     imgpkg
     iterm2
     jq
