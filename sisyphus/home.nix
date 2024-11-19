@@ -8,6 +8,7 @@
 
   programs.home-manager.enable = true;
 
+# home-manager switch -f ./home.nix
   home.packages = with pkgs; [
     awscli2
     bandit
