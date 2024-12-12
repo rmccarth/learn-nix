@@ -21,17 +21,20 @@
     git
     gnumake
     go
-    google-chrome # google-chrome-stable
+    grype
     imgpkg
     iterm2
+    istioctl
     jq
     k3d
+    k9s
     kbld
     kubectl
     kubernetes-helm
     nmap
     nodejs_22
     openssl
+    oras
     podman
     poetry
     python311Full
@@ -43,6 +46,7 @@
     skopeo
     slack
     spotify
+    syft
     teams
     terraform
     tflint
@@ -53,6 +57,7 @@
     xcode-install
     yamllint
     ytt
+    yq
     zarf
 
     # jiggler not in nixpkgs
