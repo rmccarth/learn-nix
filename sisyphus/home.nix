@@ -31,6 +31,7 @@
     kbld
     kubectl
     kubernetes-helm
+    krew
     nmap
     nodejs_22
     openssl
