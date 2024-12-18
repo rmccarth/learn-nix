@@ -1,7 +1,7 @@
 { config, pkgs, home-manager, ... }:
 {
-  home.username = "rob.mccarthy";
-  home.homeDirectory = "/Users/rob.mccarthy";
+  home.username = "robmccarthy";
+  home.homeDirectory = "/Users/robmccarthy";
 
   home.stateVersion = "24.11";
   nixpkgs.config.allowUnfree = true;
@@ -14,6 +14,7 @@
     bandit
     cargo
     cosign
+    coreutils
     crane
     cypress
     direnv
@@ -48,7 +49,6 @@
     slack
     spotify
     syft
-    teams
     terraform
     tflint
     tmux
