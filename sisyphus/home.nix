@@ -21,6 +21,7 @@
     fluxcd
     git
     gnumake
+    gnupg
     go
     grype
     imgpkg
