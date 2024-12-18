@@ -12,10 +12,14 @@
   home.packages = with pkgs; [
     awscli2
     bandit
+    bat
     cargo
     cosign
-    coreutils
     crane
+    coreutils
+    gawk
+    gnused
+    gnugrep
     cypress
     direnv
     fluxcd
