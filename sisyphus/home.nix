@@ -10,6 +10,7 @@
 
 # home-manager switch -f ./home.nix
   home.packages = with pkgs; [
+    _1password-cli
     awscli2
     bandit
     bat
@@ -22,6 +23,7 @@
     gnugrep
     cypress
     direnv
+    eza
     fluxcd
     git
     gnumake
@@ -52,6 +54,7 @@
     shellcheck-minimal
     skopeo
     slack
+    sops
     spotify
     syft
     terraform
