@@ -21,6 +21,7 @@
     gawk
     gnused
     gnugrep
+    gum
     cypress
     direnv
     eza
@@ -39,7 +40,10 @@
     kbld
     kubectl
     kubernetes-helm
+    kustomize
+    kustomize-sops
     krew
+    nix-index
     nmap
     nodejs_22
     openssl
@@ -56,10 +60,13 @@
     slack
     sops
     spotify
+    sshuttle
     syft
     terraform
+    terragrunt
     tflint
     tmux
+    tree
     vendir
     vim
     vscode
@@ -67,6 +74,7 @@
     yamllint
     ytt
     yq
+    watch
     zarf
 
     # jiggler not in nixpkgs
